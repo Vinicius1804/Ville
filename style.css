@@ -272,9 +272,11 @@ footer {
     display: flex;
     margin-top: 5px;
 }
-footer p{
+
+footer p {
     margin-left: 5px;
 }
+
 #copy {
     display: flex;
     align-items: end;
@@ -287,4 +289,5 @@ footer p{
     display: flex;
     width: 150px;
     justify-content: space-between;
+    cursor: pointer;
 }
