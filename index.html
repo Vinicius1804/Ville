@@ -9,12 +9,142 @@
 </head>
 
 <body>
+    <!--Inicio header-->
     <header class="cabecalho">
         <div class="logo">
             <img class="logo_header" src="imagens/logo_header.svg" alt="logo ville header">
             <h1 class="logo_titulo">Ville</h1>
         </div>
+        <div>
+            <button class="btn_contato">Contato</button>
+        </div>
     </header>
+    <!--Fim header-->
+
+
+    <div class="primeiro_container">
+        <h1 class="citacao">“A dança é a poesia através do movimento”</h1>
+        <img src="imagens/image1.svg" alt="dois dançarinos">
+    </div>
+
+
+    <!--Inicio galeria-->
+    <div class="container_bailarinas">
+        <h1>Galeria</h1>
+        <div class="imagens_bailarinas">
+            <img src="imagens/image2.svg" alt="bailarina">
+            <img src="imagens/image3.svg" alt="bailarina">
+            <img src="imagens/image4.svg" alt="bailarina">
+        </div>
+        <div class="container_btn_saibaMais">
+            <button class="btn_saibaMais">SAIBA MAIS</button>
+        </div>
+    </div>
+    <!--Fim galeria-->
+
+    <!--Inicio cadastro-->
+    <section class="container_cadastro">
+
+        <img src="imagens/image5.svg" alt="">
+        <div class="form-container">
+            <h2>Agende sua aula</h2>
+            <form action="#">
+                <!-- Campo de Email -->
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <!-- Campo de Telefone -->
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXX-XXXX" required>
+                </div>
+
+                <!-- Campo de Senha -->
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <!-- Botão de Enviar -->
+                <button id="btn_cadastrar" type="submit">Agendar</button>
+            </form>
+
+            <div class="form-footer">
+                <p>Já tem uma conta? <a href="#">Entrar</a></p>
+            </div>
+        </div>
+
+    </section>
+    <!--Fim cadastro-->
+
+    <!--Inicio professores-->
+    <section class="section_professores">
+        <h1>Professores</h1>
+        <div class="container_professores">
+            <div class="container_opacity">
+                <img src="imagens/image6.svg" alt="professora de jazz">
+                <h2>Gabi Freitas</h2>
+                <p>Jazz</p>
+            </div>
+
+            <div class="container_opacity">
+                <img src="imagens/image7.svg" alt="professor de hip hop">
+                <h2>Lohan Law</h2>
+                <p>Hip Hop</p>
+            </div>
+
+            <div class="container_opacity">
+                <img src="imagens/image8.svg" alt="professora de ballet">
+                <h2>Zazie Ville</h2>
+                <p>Ballet</p>
+            </div>
+
+
+        </div>
+        <div class="container_btn_saibaMais">
+            <button class="btn_saibaMais">SAIBA MAIS</button>
+        </div>
+
+    </section>
+    <!--Fim professores-->
+
+
+
+    <!--Inicio footer-->
+    <footer>
+        <div>
+            <img src="imagens/logo_footer.svg" alt="logo">
+        </div>
+        <div id="copy">
+            <img src="imagens/copy_icon.svg" alt="icone copywrity">
+            <p>2025 Ville</p>
+        </div>
+        <div id="contatos">
+            <div id="email">
+                <img src="imagens/email_icon.svg" alt="icone email">
+                <p>suporte@vallecompany.com</p>
+            </div>
+
+            <div id="telefone">
+                <img src="imagens/telefone_icon.svg" alt="icone telefone">
+                <p>000.000.0000</p>
+            </div>
+
+            <div id="redes_sociais">
+                <img src="imagens/youtube_icon.svg" alt="icone youtube">
+                <img src="imagens/instagram_icon.svg" alt="icone instagram">
+                <img src="imagens/facebook_icon.svg" alt="icone facebook">
+                <img src="imagens/twitter_icon.svg" alt="icone twitter">
+                <img src="imagens/linkedin_icon.svg" alt="icone linkedin">
+            </div>
+        </div>
+    </footer>
+
+    <!--Fim footer-->
+
+
 </body>
 
 </html>
