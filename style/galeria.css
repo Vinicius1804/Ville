@@ -74,14 +74,14 @@ h2 {
     opacity: 0;
     filter: blur(15px);
     transform: translateX(-80%);
-    transition: all 1s;
+    transition: all 3s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0px);
     transform: translateX(0);
-    transition: all 1s;
+    transition: all 3s;
 }
 .galeria{
     display: flex;
